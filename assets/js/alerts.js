@@ -10,7 +10,6 @@ $(document).ready(function() {
         text: "Your message has been sent, someone will be in touch soon.",
         type: "success",
         confirmButtonColor: "#1c8a60",
-        confirmBorderColor: "#1c8a60",
         confirmButtonText: "OK"
     })
 });
