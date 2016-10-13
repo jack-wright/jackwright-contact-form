@@ -30,7 +30,7 @@ function form_submission() {
             wp_deregister_script( 'jquery' ); // deregisters the  current jQuery so that we are queueing the scripts in the right order
             wp_register_script('jquery', ("https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"), false);
             wp_enqueue_script('jquery');
-           wp_register_script('custom-alert', ("//digitalvibrancy.com/wp-content/plugins/jackwright-contact-form/includes/../assets/js/alerts.js?ver=4.6.1"),false);
+           wp_register_script('custom-alert', ("//digitalvibrancy.com/wp-content/plugins/jackwright-contact-form-master/assets/js/alerts.js?ver=4.6.1"),false);
             wp_enqueue_script('custom-alert');
         } else {
             echo 'An unexpected error occurred';
