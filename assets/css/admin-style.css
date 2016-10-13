@@ -1,0 +1,15 @@
+.shortcode-box {
+ 	padding:20px;
+	margin-bottom:20px;
+    	width:auto;
+    	background-color:white;
+    	box-shadow: 5px 5px 5px #ddd;
+}
+
+.shortcode-text {
+	font-weight:bold;	
+}
+
+.wp-menu-image> img {
+	padding:0!important
+}

@@ -1,0 +1,23 @@
+
+// THEME VARIABLES
+// Use these to control all colouring and styling across the partials
+
+$font-family: 			Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$button-static-color: 	#30b381;
+$button-hover-color: 	#1c8a60;
+
+$form-bg-color:         transparent;
+$label-color: 			#607d8b;
+$label-font-size:       12px;
+$border-style: 			1px solid #ccc;
+$input-padding:         12px 20px;
+
+
+
+// Layout
+@import "partials/layout";
+
+// Inputs
+@import "partials/inputs";
+
+

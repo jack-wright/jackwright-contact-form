@@ -1,0 +1,26 @@
+/* Scss Document */
+
+
+/* Form Container 
+- Delete styling if not needed - just adds a width to the form, quick and easy as all elements are set to 100% width individual -
+*/
+
+
+.form-container {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: $font-family;	
+	border-radius: 5px;
+    background-color: $form-bg-color;
+    padding: 20px;
+}
+
+
+@media (min-width: 1170px) {
+  .form-container {
+    width: 60%;
+  }
+}
+
+

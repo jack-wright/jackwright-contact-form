@@ -1,0 +1,60 @@
+/* Scss Document */
+/* Form Container 
+- Delete styling if not needed - just adds a width to the form, quick and easy as all elements are set to 100% width individual -
+*/
+.form-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 20px; }
+
+@media (min-width: 990px) {
+  .form-container {
+    width: 60%; } }
+/* Scss Document */
+/* Labels */
+label {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #607d8b; }
+
+/* Input Fields */
+input[type=text], input[type=email], input[type=tel], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+/* Buttons */
+input[type=submit] {
+  width: 100%;
+  background-color: #30b381;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+input[type=submit]:hover {
+  background-color: #1c8a60; }
+
+/*# sourceMappingURL=style.css.map */

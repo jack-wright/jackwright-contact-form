@@ -1,0 +1,46 @@
+/* Scss Document */
+
+/* Labels */
+label {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: $label-font-size;
+	color: $label-color;	
+}
+
+/* Input Fields */
+input[type=text], input[type=email], input[type=tel], select {
+    width: 100%;
+    padding: $input-padding;
+    margin: 8px 0;
+    display: inline-block;
+    border: $border-style;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    width: 100%;
+    padding: $input-padding;
+    margin: 8px 0;
+    display: inline-block;
+    border: $border-style;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+input[type=submit] {
+    width: 100%;
+    background-color: $button-static-color;
+    color: white;
+	font-weight: bold;
+	text-transform: uppercase;	
+    padding: $input-padding;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: $button-hover-color;
+}
